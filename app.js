@@ -21,3 +21,6 @@ function drawCross(x, y) {
   line2.style.top = y + "px";
   document.body.appendChild(line2);
 }
+
+let container = document.querySelector('.container');
+container.addEventListener('click', evento => drawCross(evento.pageX, evento.pageY));
