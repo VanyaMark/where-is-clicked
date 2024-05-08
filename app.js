@@ -23,4 +23,4 @@ function drawCross(x, y) {
 }
 
 let container = document.querySelector('.container');
-container.addEventListener('click', evento => drawCross(evento.pageX, evento.pageY));
+container.addEventListener('click', event => drawCross(event.pageX, event.pageY));
